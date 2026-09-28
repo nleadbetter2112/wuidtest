@@ -1,448 +1,369 @@
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Badass Website</title>
-    <link rel="icon" type="image/x-icon" href="https://elbowthief.neocities.org/Images/buttoncropped.png">
-    <!--   
-         #cb2c0a
-         https://www.textures4photoshop.com/tex/thumbs/creepy-skull-background-horror-texture-872.jpg
-         https://notmerlin.com/other/horrorgifs/gifs/Skull/Skull%20(684).gif linksskull
-         
-         https://graphic.neocities.org/c3ff7682-81f1-43cf-a5f9-073d936a58da.gif
-         
-         https://notmerlin.com/other/horrorgifs/gifs/Skeleton/Skeleton%20(321).gif welcome to my homepage skeleton
-         https://cdn.pixabay.com/photo/2020/12/19/20/10/divider-5845199_960_720.png awesome skull divider
-         
- 
- https://99gifshop.neocities.org/items/7/swordy_md_clr.gif awesome swords
-https://notmerlin.com/other/horrorgifs/gifs/Skull/Skull%20(93).gif double skulls sword
-https://notmerlin.com/other/horrorgifs/gifs/Skull/Skull%20(94).gif red skull sword
- 
+<head>
+<title>The Wuid</title>
+<link rel="shortcut icon" type="image/png" href="images/favicon/mainfavicon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<style>
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #5d678a #000;
+  }
 
-https://web.archive.org/web/20060207125330/http://www.gay-web-links.com/
-https://web.archive.org/web/20060205150346/http://queerworld.com/
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
 
-    <link href="/style.css" rel="stylesheet" type="text/css" media="all">  
-    
-    
-    
-    https://zachkaigler.medium.com/flexbox-for-dummies-130c34756978
-    
-    -->
-    
-  </head>
-  
-  <body>
-  
-<!-- Wikplayer https://www.wikplayer.com -->
-<script type="text/javascript" src="https://www.wikplayer.com/code.js" 
-data-config="{'skin':'skins/wikfull/funkyDeepOcean/skin.css','volume':50,'autoplay':false,'shuffle':false,'repeat':0,'showcomment':false,'marqueetexton':false,'placement':'top','showplaylist':false,'playlist':[{'title':'The%20Swinging%20Man%20-%20Black%20Flag','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D7zXlQ0wG47A'},{'title':'Ex-Spectator%20-%20Fugazi','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Duxhu_mkNPJ0'},{'title':'Wargasm%20-%20L7','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DfA0fZ3LARsw'},{'title':'Landshark%20-%20Fang','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D-t7AdYMkM0A'},{'title':'My%20Dog%27s%20A%20Cat%20-%20Dag%20Nasty','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D7zXlQ0wG47A'}]}" ></script>
-<!-- Wikplayer code end -->
+  *::-webkit-scrollbar-track {
+    background: #000;
+  }
 
+  *::-webkit-scrollbar-thumb {
+    background-color: #5d678a;
+}
 
-             <!--<center>  <img src="https://images.cooltext.com/5685149.gif" width="1302" height="119"  /> </center>-->
+html {
+  background-image: url("bgimgs/wavydarkpurplebg.png");
+  background-color: #000;
+}
 
-<img src="https://notmerlin.com/other/horrorgifs/gifs/Skeleton/Skeleton%20(56).gif" style=" height: 350px; position: absolute; top: 1100px; left: 155px;" >
-<img src="https://cd-rome.neocities.org/miscdecor/jammin.gif" style=" height: 350px; position: absolute; top: 1100px; right: 110px;" >
+body {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ccccc6;
+}
 
+.wrapper {
+  width: 70%;
+  margin: auto;
+}
 
+.wrapper-2 {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 10px auto;
+}
 
- <div id="container">
- <div id="topBar">    <center>  <img src="https://notmerlin.com/other/horrorgifs/lines/line%20(158).gif"   /> </center> </div>
- 
+header {
+    width: 80%;
+    height: 150px;
+    margin: auto;
+    margin-bottom: 5px;
+    border: 5px ridge #423a5e;
+    background-color: #111111;
+    background: url("images/headerbg.png") no-repeat center;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+}
 
- <div id="headerArea">    
-                <div id="header" style="height: 225px;"></div>
-                <nav id="navbar" style="margin-bottom: 10px;">
-                    <ul>
-                        <li><a href="https://elbowthief.neocities.org/moviereviews">Movies</a></li>
-                        <li><a href="https://elbowthief.neocities.org/goodalbums">Music</a></li>
-                        <li><a href="https://elbowthief.neocities.org/comics">Comics</a></li> 
-                        <li><a href="https://elbowthief.neocities.org/links">Links</a></li>
-                        <li><a href="https://elbowthief.neocities.org/donelan">Gerard Donelan Comics</a></li>
-                    </ul>
-                </nav>
+.navbar {
+    width: 80%;
+    border: 5px ridge #423a5e;
+    background-color: #111111;
+    padding: 10px 0px 10px 0px;
+    margin: auto;
+    margin-bottom: 10px;
+    display:inline-block;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.navbarlinks {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.main-container {
+    width: 50%;
+    padding: 15px;
+    background-image: url("bgimgs/carbon-fibre-v2.png");
+    background-color: #111111;
+    border: 5px ridge #423a5e;
+    margin: auto;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.left-container {
+    float: left;
+    width: 24%;
+    height: fit-content;
+    padding: 15px;
+    background-image: url("bgimgs/carbon-fibre-v2.png");
+    background-color: #111111;
+    border: 5px ridge #423a5e;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.right-container {
+    float: right;
+    width: 24%;
+    height: fit-content;
+    padding: 15px;
+    position: relative;
+    background-image: url("bgimgs/carbon-fibre-v2.png");
+    background-color: #111111;
+    border: 5px ridge #423a5e;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.innerbox {
+    width: 100%;
+    padding: 15px;
+    border: 5px #6a6a86 dotted;
+    background-color: #272727;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    text-align: left;
+    overflow: auto;
+    scrollbar-width: thin;
+}
+
+footer {
+    width: 70%;
+    border: 5px ridge #423a5e;
+    background: url("images/footerbg.jpg") no-repeat center;
+    background-size: 100% 100%;
+    background-color: #111111;
+    padding: 10px 0px 10px 0px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box
+}
+
+.insidefooter {
+    width: 90%;
+    background-color: #2c1a51b9;
+    margin: auto;
+    padding: 5px 0px 5px 0px;
+}
+
+#rss {
+    width: 100%;
+    text-align: left;
+    margin: auto;
+    padding: 10px;
+    background-color: #272727;
+    border: 5px #6a6a86 dotted;
+	box-sizing: border-box;
+}
+
+#rss a {
+	color: #4a526e;
+    text-shadow: #000 2px 1px;
+}
+
+#rss div a {
+    text-shadow: none;
+    filter: drop-shadow(0px 1px #ccccc6) drop-shadow(0 -1px #ccccc6) drop-shadow(-1px 0 #ccccc6) drop-shadow(1px 0 #ccccc6);
+}
+
+#buttons {
+	padding-left: 0;
+}
+
+#buttons li {
+	display: block;
+    position: relative;
+	width: 95%;
+    margin-bottom: 5px;
+	color: #8d9492;
+	background-color: #272727;
+    border: 5px ridge #5a5276;
+    border-radius: 5px;
+}
+
+#buttons li:hover {
+	color: #5d6666;
+}
+
+#buttons li a {
+    width: 100%;
+	height: 100%;
+    text-transform: uppercase;
+	color: inherit;
+    line-height: 30px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h2 {
+    font-style: italic;
+    border-bottom: 3px solid;
+    border-image-slice: 2;
+    border-image-source: linear-gradient(to right, transparent, #4a526e 10%, transparent);
+}
+
+.forum_img {
+    width: 100%;
+    height: 30%;
+}
+
+.inside_img {
+  width: 90%;
+}
+
+.button_imgs:hover {
+	scale: 2;
+	z-index: 3;
+  position: relative;
+}
+
+a {
+  color: #7d7790;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #423a5e;
+}
+
+@media screen and (max-width: 800px) {
+
+.main-container, header, .navbar, footer, .left-container, .right-container, .innerbox, #buttons {
+    width: 100%;
+    display: block;
+    margin: 10px auto;
+}
+
+}
+
+</style>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <img src="images/forumsignature.png" class="forum_img" alt="an image of a forum signature banner, on the forefront is the text compulsivecomputer.net">
+    </header>
+    <!--navigation-->
+    <div class="navbar">
+        <div class="navbarlinks">
+        <a href="homepage.html">Home</a>
+        &nbsp;
+        <span aria-hidden="true">&bull;</span>
+        &nbsp;
+        <a href="about.html">About</a>
+        &nbsp;
+        <span aria-hidden="true">&bull;</span>
+        &nbsp;
+        <a href="links.html">Links</a>
+        &nbsp;
+        <span aria-hidden="true">&bull;</span>
+        &nbsp;
+        <a href="sitecredits.html">Credits</a>
+        &nbsp;
+        <span aria-hidden="true">&bull;</span>
+        &nbsp;
+        <a href="">Sitemap</a>
+        &nbsp;
+        <span aria-hidden="true">&bull;</span>
+        &nbsp;
+        <a href="guestbookarchive.html">Guestbook</a>
+        &nbsp;
+        <span aria-hidden="true">&bull;</span>
+        &nbsp;
+        <a href="https://neocities.org/site/compulsivecomputer">Site Profile</a>
+        </div>
+    </div>
+    <div class="wrapper-2">
+        <!--main content-->
+        <div class="left-container">
+            <h1>Look around</h1>
+            <ul id="buttons">
+                <li><a href="artgallery.html">Art gallery tour</a></li>
+                <li><a href="ramblings.html">Weblog</a></li>
+                <li><a href="mediareviews.html">Review index</a></li>
+            </ul>
+        <div class="innerbox">
+            <h2>Somewhere else?</h2>
+            <ul>
+                <li><a href="https://compulsivecomputer.itch.io/" target="_blank">Itch.io</a></li>
+                <li><a href="https://bsky.app/profile/compulsivecomputer.net">Bluesky</a></li>
+            </ul>
+        </div>
+        <img src="images/computervector.png" class="inside_img" alt="a stylized and colorful vector of a computer">
+        </div>
+        <div class="main-container">
+            <h1>Greetings and Salutations</h1>
+            <div class="innerbox" style="text-align: center; font-size: 1.15em;">
+                <p>Welcome to my personal website, CompulsiveComputer</p>
+                <p>I am Martin, a particular IBM Personal Computer who made this very site you're seeing.</p>
+                <p>This website is what I would consider one of my largest and longest projects, it has evolved throughout the years and is forever a work in progress. This site has everything that fancies me and possibly you, get comfortable for your stay and I hope it can leave you enlightened or the like.</p>
+                <img src="images/smilesss.png" class="inside_img" alt="an image of two happy emoticons with the text 'great posts everyone, really funny stuff going around the website today' displayed">
+                <p>Image for your viewing pleasure.</p>
+                <img src="images/dividers/fancyborderdivider.png" class="inside_img" alt="a fancy white page border">
+                <h2>Contact me</h2>
+                <p>If you'd like to contact me for any concern or just to talk, you can freely email me here:</p>
+                <a href="mailto:compulsivecomputer@gmail.com">compulsivecomputer@gmail.com</a>
+                <br>
+                <h3>Sibling sites</h3>
+                <a href="https://phobophobia.xyz/" target="_blank"><img src="buttons/site buttons/phobophobia_button.png" alt="a site button outlinking to phobophobia.xyz" class="button_imgs"></a>
+                <p>The Phobophobia centric website, for all phobophobia needs.</p>
+                <a href="https://circuitbreakletterbox.moe/" target="_blank"><img src="buttons/site buttons/cbl_button.webp" alt="a site button outlinking to circuitbreakletterbox.moe" class="button_imgs"></a>
+                <p>Circuit Break Letterbox, my personal doujin website!</p>
             </div>
-    
-                            
-  
-            
-            
-            
-             
-            
-<!--
- <center>  <img src="https://images.cooltext.com/5685149.gif" width="1302" height="119"  /> </center> -->
+            <marquee><img src="buttons/pepsi.gif"> <img src="buttons/gdimpbutton.jpg"> <img src="buttons/learnhtml.gif"> <img src="buttons/webdesign.png"> <img src="buttons/bestviewedany.gif"> <img src="buttons/piracynow.gif"> <img src="buttons/neocities.png"> <img src="buttons/button_archlinux.gif"> <img src="buttons/linux_button.gif"> <img src="/buttons/rss.png"></marquee>
+        </div>
+        <div class="right-container">
+            <div class="innerbox">
+                <h2>Link back</h2>
+                <p>Here is my site button, feel free to link back to me if you please.</p>
+                <p>Please do not hot-link if you can, thank you.</p>
+                <img src="buttons/site buttons/compulsivecomputerbuttonnew.png">
+                <img src="buttons/site buttons/compulsivecomputerbutton.gif">
+            </div>
+            <div class="innerbox">
+                <h2>Change-log</h2>
+                <ul>
+                  <li>Finally added some damn site buttons on the links page</li>
+                  <li>Dusted off some pages + fixed miscellaneous things.</li>
+                  <li><s>re-coded my homepage, removed a bunch of pages and I'll start slowly changing some remaining pages.</s></li>
+                </ul>
+                <h2>To-do</h2>
+                <ul>
+                  <li>add alt text to images yet to be described.</li>
+                  <li>fix up mobile viewing</li>
+                </ul>
+            </div>
+            <a href="https://www.mabsland.com/Adoption.html"><img src="images/Censor_Ma.gif" class="inside_img"></a>
+        </div>
 
-            <div id="flex">
-            
-            
-            
-            
-                <aside id="leftSidebar" style="margin-right: 10px; center;">
-                   
-                    <div>
-                    <ul style="padding-left:10px; margin-left: 10px;">
-                            <p><a href="https://elbowthief.neocities.org/ublock">Simple guide</a> on how to add uBlock Origin to Firefox.</p><br>
-                        </ul>
-                    </div><br><br>
-                    
-           <center><a href="https://stanforddaily.com/2018/11/29/frankenstein-and-its-transformations/"><img src="https://notmerlin.com/other/horrorgifs/gifs/Ghoul/Ghoul%20(208).gif" width="160" height="180"></a>
-                   <br> <br> <br>
-                  
-                  <a href="https://users3.smartgb.com/g/g.php?a=s&i=g36-36569-11"><h2>Visit my guestbook!</h2></a>
-                    <a href="https://users3.smartgb.com/g/g.php?a=s&i=g36-36569-11"><img src="https://notmerlin.com/other/horrorgifs/gifs/Skull/Skull%20(119).gif"></a></center>  
-                
-               
-                
-                </aside>
-                
-                
-                
-                
-<main>
-<img src="https://notmerlin.com/other/horrorgifs/lines/line%20(159).gif"  width="700" >
-<center> <h1> <strong>Welcome to my humble abode!</strong></h1><center> <div>
-<h2><strong>Stay a while! Or forever...</strong></h2> 
+        <div class="main-container">
+            <h1>Song of the whenever</h1>
+            <div class="innerbox">
+              <iframe width="100%" height="300"
+                src="https://www.youtube.com/embed/I0DlDW6mUdE?si=nZTmL8geIU84Slgm"
+                title="YouTube video player"
+                frameborder="0">
+            </iframe>
+            <p>D.N.A Love - The Sleepwalk</p>
+            <p>Really lovely and underrated song I wouldn't have found if I wasn't subscribed to this channel.</p>
+            </div>
+            <br>
+            <div id="rss">
+            <script src="//rss.bloople.net/?url=https%3A%2F%2Fcompulsivecomputer.net%2Frss.xml&showtitle=false&type=js"></script>
+            </div>
+        </div>
+        <footer>
+            <div class="insidefooter">
+                <p>Lovingly coded by Martin/Collin/Izzith, CompulsiveComputer.net</p>
+                <p>2022-5ever | hosted on neocities.org | legalize copyright infringement | <a href="#top">back to top</a></p>
+            </div>
+        </footer>
+    </div>
   </div>
-  <br>
-
-<figure style="float: left;" >
-    <img src="https://i.ibb.co/HnLLv5B/transparentskull.png" height="190" width="190">
-</figure>
-
-<div class=box style="text-align: left">
-   <p>This is my personal website! I'm just a guy who has way too much free time and a love for spooky stuff.
-   <p>I haven't put any effort into making this website not horrible on mobile, so if you're unlucky enough to be viewing this from your phone: sorry! And if you're wondering why Elbowthief... sometimes the name that you come up with when you're twelve sticks with you.</p>
-   <p>I'm also been planning to add more additions to the Gerard Donelan comic collection I have going, because there are a bajillion of those things. I've realized that when you google his name my website shows up as one of the first results, so that's simultaneously embarrassing and awesome.</p> 
-   <p>If you're getting ads on the Donelan page like my friend did, that's fucked up. Don't really know what to say about that. I have adblocker installed on everything so I don't see ads if I can help it. </p>
-   <p>Here's the link to my <a href="https://neocities.org/site/elbowthief">Neocities profile.</a></p>
-   <center><button type="button" onclick="alert('BOO!')">Click Me</button></center>
-</div> <!--BOX DIV END -->
-   
-      <br>
- 
-   <!--https://www.reddit.com/r/Music/comments/16s607c/comment/k27l96l/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button Happy flowers-->
-  <img class="candle-facingright" src='https://bettysgraphics.neocities.org/images/objects/candle%2077.gif'>
-    <img src='https://i.ibb.co/Lpv0nbp/JTHM6.jpg' height="260" width="300">
-  <img class="candle-facingleft" src='https://bettysgraphics.neocities.org/images/objects/candle%2077.gif' style="transform: scaleX(-1);" >
-                      
-                     
-
-</main> 
-                
-                <aside id="rightSidebar" style=" padding-top: 20px;">
-                      
-                      <p><a href="https://boxd.it/sMSZw">Letterboxd list</a> of movies available to watch on Wikipedia.</p>
-                     
-                      <center><img class="blinkie" src="https://y2k.neocities.org/blinkiez/tumblr_inline_pcjgdawteA1vss73l_1280.gif"><!--bats-->
-                      <img class="blinkie" src="https://adriansblinkiecollection.neocities.org/x2.gif"><!--live die sword-->
-                      <img class="blinkie" src="https://adriansblinkiecollection.neocities.org/k6.gif"><!--brain glowing-->
-                      <img class="blinkie" src="https://transbro.neocities.org/Graphics/Blinkies/0210-werewolfmoonhowl.gif"><!--awoooooo-->
-                      <img class="blinkie" src="https://y2k.neocities.org/blinkiez/1564055h9zarit76d.gif"><!--are we alone?-->
-                      <img class="blinkie" src="https://blinkies.neocities.org/b/display/0001-saucer.gif"><!--crash-->
-                      <img class="blinkie" src="https://i10.glitter-graphics.org/pub/37/37370g89xeibxiz.gif"><!--married -->
-                      <img class="blinkie" src="https://y2k.neocities.org/blinkiez/newbatch/Blinkie_97__site_.gif"><!--single -->
-                      <img class="blinkie" src="https://i10.glitter-graphics.org/pub/471/471490zpt5shyxhi.gif"><!--married 2-->
-                      <img class="blinkie" src="https://i8.glitter-graphics.org/pub/2528/2528918tacu0qcbkx.gif"><!--single 2-->
-                      <img class="blinkie" src="https://adriansblinkiecollection.neocities.org/v33.gif"><!--penguins-->
-                      <img width="150" src="https://cinni.net/images/web/worldisa.png">
-                      </center>
-                      <br>
-                      <img src="https://99gifshop.neocities.org/items/7/elecsword.gif" style=" width: 170px;">
-                     
-                </aside>
-
-
-
-                    
-            </div><!--flex-->
-            
-        	  
-    	      </div><!--container-->
-
-
-        <style>
-
-:root {
- --header-image: url('https://notmerlin.com/other/horrorgifs/bg/Tombstone/T%20(1).gif'); 
- --body-bg-image: url(' https://sadhost.neocities.org/images/tiles/skulls.jpg ');
-/*https://sadhost.neocities.org/images/tiles/skulls.jpg       https://sadhost.neocities.org/images/tiles/redskulls.jpg            https://cdn.vectorstock.com/i/preview-1x/77/96/seamless-pattern-with-spider-web-vector-5827796.webp*/ 
-                --content: #3bd087;
-            }
-
-/* https://www.dafont.com/booter.font?back=theme 
-https://www.fontspace.com/oyen-font-f104911 */
-@font-face {
-    font-family: "boote"; 
-    src: url("https://elbowthief.neocities.org/fonts/BOOTER-SKINNY.ttf") format("truetype");
-}
-
-            body {
-                font-family: 'booter';
-                margin: 0;
-                background-color:  #000000;
-                background-size: 300px;
-                color: #fff;
-                background-image: var(--body-bg-image);
-                background-attachment: fixed;
-                letter-spacing: 0.05em;
-            }
-
-            * {
-                box-sizing: border-box;
-            }
-
-            
-
-            #container {
-                max-width: 1300px;
-                /* this is the width of your layout! */
-                /* if you change the above value, scroll to the bottom
-      and change the media query according to the comment! */
-               /* margin: 0 auto; */
-                margin-left: auto; margin-right: auto;
-                /* this centers the entire page */
-            }
-
-            /* the area below is for all links on your page
-    EXCEPT for the navigation */
-            #container a {
-                color:  #ff0000 ;
-                font-weight: bold;
-                text-decoration:none; */
-            }
-
- #container a:hover {
-                color:  #1af300;
-                text-decoration: underline;
-            }
-
-
-            #header {
-                width: 100%;
-                background-color: #000000;
-                /* header color here! */
-                height: 280px;
-                /* this is only for a background image! */
-                /* if you want to put images IN the header, 
-      you can add them directly to the <div id="header"></div> element! */
-                background-image: var(--header-image);
-                background-size: 50%;
-            }
-
-            /* navigation section!! */
-            #navbar {
-                height: 40px;
-                background-color: #000000;
-                /* navbar color */
-                width: 100%;
-            }
-
-            #navbar ul {
-                display: flex;
-                padding: 0;
-                margin: 0;
-                list-style-type: none;
-                justify-content: space-evenly;
-            }
-
-            #navbar li {
-                padding-top: 10px;
-            }
-
-            /* navigation links*/
-            #navbar li a {
-                color:  #ff0000 ;
-                font-weight: 800;
-                text-decoration: none;
-            }
-
-            #navbar li a:hover {
-                color: #1af300;
-                text-decoration: underline;
-            }
-
-            #flex {
-                display: flex;
-            }
-
-            /* #220600 */
-            #leftSidebar {
-                background-color: #220600;
-                width: 225px;
-                height: 780px;
-                padding: 20px;
-                background-image: url('');
-                border: #fff 5px;
-                border-style: double;
-                border-radius: 10px;
-               }
-
-#rightSidebar {
-                background-color: #220600;
-                width: 225px;
-                height: 780px;
-                padding: 20px;
-                background-image: url('');
-                border: #fff 5px;
-                border-style: double;
-                border-radius: 10px;
-               }
-
-
-#rightbar {
-                background-color: #220600;
-                width: 1300px;
-                height: flex;
-                padding: 20px;
-                background-image: url('');
-                border: #fff 5px;
-                border-style: double; }
-
-.divscroll
-{
-Width: 186px;
-Height: 450px;
-Overflow-y:scroll;
-Margin: 0px;
-}
-
-
-            /* #550f00 */
-            main {
-                background-color: #3f0b00;
-                flex: 1;
-                padding: 30px;
-                width 300px ;
-                order: 2;
-                text-align: center;
-                background-image: url('https://background-tiles.com/overview/red/textures/large/5008.png');
-                margin: 40px;
-                border-radius: 10px;
-               
-            }
-
-            
-           #leftSidebar {
-                order: 1;
-            }
-
-            #rightSidebar {
-                order: 3;
-            }
-            
-            #rightbar {
-              order: 4;
-            }
-
-        	footer {
-            	background-color: #2e0800;
-            	width: 100%;
-            	height: 50px;
-            	padding: 5px;
-            	text-align: center;
-            	}
-
-            h1,
-            h2,
-            h3,
-            h4{
-                color:  #ffffff;
-            }
-
-            h1 {
-                font-size: 30px;
-            }
-            
-            h2 a:hover{
-              color: #1af300;
-                text-decoration: underline;
-            }
-            
-           p, li{
-             
-             font-size: 19px;
-           }
-
-            strong {
-                color: #f6a047;
-            }
-
-            /* this is just a cool #f6a047 box, it's the darker colored one */
-            .box {
-                background-color: #09012f;
-                padding: 10px;
-                border: #fff 5px;
-                border-style: double;
-    border-top-style: double;
-    border-right-style: double;
-    border-bottom-style: double;
-    border-left-style: double;
-            }
-
-.blinkie
-{
-  width: 150px;
-  height: 20px;
-  margin: 3px; 
-}
-
-            /* CSS for extras */
-
-            #topBar {
-                width: 100%;
-                height: 30px;
-                padding: 10px;
-                background-color: #000000;
-            }
-
-
-            /* BELOW THIS POINT IS MEDIA QUERY */
-
-            /* so you wanna change the width of your page? 
-    by default, the container width is 900px.
-    in order to keep things responsive, take your new height,
-    and then subtract it by 100. use this new number as the 
-    "max-width" value below
-    */
-
-            @media only screen and (max-width: 1200px) {
-                #flex {
-                    flex-wrap: wrap;
-                }
-
-                aside {
-                    width: 100%;
-                }
-
-                /* the order of the items is adjusted here for responsiveness!
-      since the sidebars would be too small on a mobile device.
-      feel free to play around with the order!
-      */
-                main {
-                    order: 1;
-                }
-
-                #leftSidebar {
-                    order: 2;
-                }
-
-                #rightSidebar {
-                    order: 3;
-                }
-                
-                #rightbar {
-                  order: 4;
-                }
-
-                #navbar ul {
-                    flex-wrap: wrap;
-                }
-            }
-        </style>
-
-    
-  </body>
+</body>
 </html>
